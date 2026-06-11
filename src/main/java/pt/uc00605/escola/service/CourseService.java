@@ -4,15 +4,15 @@ import java.util.List;
 
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
+import org.springframework.validation.annotation.Validated;
 
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import pt.uc00605.escola.exception.ResourceNotFoundException;
 import pt.uc00605.escola.model.Course;
 import pt.uc00605.escola.repository.CourseRepository;
 
 @Service
+@Validated
 
 public class CourseService {
 

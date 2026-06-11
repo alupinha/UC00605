@@ -51,7 +51,7 @@ public class Course {
     @JoinColumn(name = "course_id")
     private List<Lesson> lessons = new ArrayList<>();
 
-    public void setCategory(Category backend) {
+    public void setCategory(pt.uc00605.escola.enums.Category backend) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setCategory'");
     }
